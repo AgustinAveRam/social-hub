@@ -11,14 +11,22 @@ body{
     text-align: center;
 }
 
+
+
 nav ul {
     display: inline;
+    padding: 50%;
+
 }
 
 nav ul li{
     text-decoration: none;
     list-style-type: none; /* Elimina las viñetas */
     margin: 2%;
+
+    background-color: rgba(41, 116, 255, 0.315);
+    border-radius: 25px;
+    
 }
 
 h1{
