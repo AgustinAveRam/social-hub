@@ -32,7 +32,6 @@ nav ul li{
 h1{
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
-    padding-top: 0.5rem;
     font-size: 3rem;
     color: #161616;
     text-align: center;
@@ -40,7 +39,7 @@ h1{
 }
 
 img{
-    width: 15vw;
+    width: 13vw;
     height: auto;
 }
 
@@ -61,4 +60,5 @@ footer {
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
   }
   
+
 
