@@ -1,11 +1,11 @@
 html {
     scroll-behavior: smooth;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.144) 100%);
 }
 
 body{
     margin: 0;
     padding: 0;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.144) 100%);
 }
 
 .averam-main-section {
@@ -40,7 +40,7 @@ h1{
 }
 
 img{
-    width: 10vw;
+    width: 12vw;
     height: auto;
 }
 
