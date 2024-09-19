@@ -7,41 +7,50 @@ body{
     padding: 0;
 }
 
-.averam-main-section{
+.averam-main-section {
     text-align: center;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.144) 100%);
+    padding: 20px; /* Espaciado alrededor del contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    height: 100%;
 }
+
 
 
 
 nav ul {
     display: inline;
-    padding: 50%;
-
 }
 
 nav ul li{
     text-decoration: none;
     list-style-type: none; /* Elimina las viñetas */
     margin: 2%;
-
-    background-color: rgba(41, 116, 255, 0.315);
+    padding: 2%;
+    background-color: rgba(0, 78, 222, 0.622);
     border-radius: 25px;
-    
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 h1{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    padding-top: 1.5rem;
+    color: #161616;
     text-align: center;
     margin: 0;
 }
 
 img{
-     width: 15vw;
+    width: 20vw;
     height: auto;
 }
 
 p{
+    font-family: "Bebas Neue", sans-serif;
     text-align: end;
-    color: #ffffff;
+    color: #ebebeb;
     margin-right: 5%;
 }
 
