@@ -10,13 +10,10 @@ body{
 .averam-main-section {
     text-align: center;
     background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.144) 100%);
-    padding: 20px; /* Espaciado alrededor del contenido */
-    border-radius: 8px; /* Bordes redondeados */
     height: 100%;
+    padding-left: 1rem; 
+    padding-right: 1rem;
 }
-
-
-
 
 nav ul {
     display: inline;
@@ -35,6 +32,7 @@ nav ul li{
 h1{
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    padding-top: 0.5rem;
     font-size: 3rem;
     color: #161616;
     text-align: center;
@@ -63,3 +61,4 @@ footer {
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
   }
   
+
