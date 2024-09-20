@@ -48,3 +48,43 @@ li a {
 }
 
 
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: #161616;
+    text-align: center;
+    margin: 0;
+}
+
+img{
+    width: auto;
+    height: 7vh;
+}
+
+@media (max-width: 550px) {
+    img{
+        width: 12vw;
+        height: auto;
+    }
+}
+
+
+
+p{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: end;
+    color: #ebebeb;
+    margin-right: 5%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #161616;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
