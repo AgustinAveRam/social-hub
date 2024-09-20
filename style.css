@@ -70,6 +70,7 @@ h1 {
 img{
     width: auto;
     height: 7vh;
+    filter: brightness(0) saturate(100%) invert(1);
 }
 
 @media (max-width: 550px) {
