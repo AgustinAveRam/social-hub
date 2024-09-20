@@ -58,10 +58,10 @@ li a {
 
 
 
-h1{
+h1 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 6vw; /* Ajusta según el ancho de la ventana */
     color: #161616;
     text-align: center;
     margin: 0;
@@ -76,6 +76,10 @@ img{
     img{
         width: 12vw;
         height: auto;
+    }
+
+    h1{
+        font-size: 11vw;
     }
 }
 
