@@ -20,18 +20,27 @@ nav ul {
     display: inline;
 }
 
-nav ul li{
-    text-decoration: none;
-    list-style-type: none; /* Elimina las viñetas */
+nav ul li {
+    list-style-type: none;
     margin: 1%;
     padding: 0.8%;
     margin-left: 35%;
     margin-right: 35%;
-    background-color: rgba(0, 78, 222, 0.622);
-    border-radius: 25px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 78, 222, 0.7); /* Un color base semitransparente */
+    border-radius: 30px; /* Bordes más redondeados */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más definida y suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+nav ul li:hover {
+    transform: translateY(-4px); /* Levemente elevado al hacer hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); /* Sombra más intensa en hover */
+}
+
+nav ul li:active {
+    transform: translateY(0); /* Regresa a su posición original cuando se presiona */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra menos intensa al ser presionado */
+}
 li a {
     display: block; /* Convierte el enlace en un bloque para ocupar todo el espacio del <li> */
     width: 100%; /* Asegura que el <a> tome el 100% del ancho del <li> */
