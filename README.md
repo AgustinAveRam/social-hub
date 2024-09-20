@@ -1,5 +1,9 @@
 # social-hub
 Social Hub is a web application designed to centralize and unify all your social media profile links in one place. With a simple and intuitive interface, it allows you to store and organize links to platforms like X(Twitter), Instagram, Facebook, LinkedIn, and more, making it easy to access all your social accounts from a single hub.
 
-
-https://github.com/user-attachments/assets/ca90a5ad-36ac-463c-8da8-bbb566ae1ef4
+<div align="center">
+  <video width="600" controls>
+    <source src="https://github.com/user-attachments/assets/5dd2a6e5-64be-474b-ab92-6e65e0d07176" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
