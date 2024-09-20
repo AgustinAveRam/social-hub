@@ -23,43 +23,28 @@ nav ul {
 nav ul li{
     text-decoration: none;
     list-style-type: none; /* Elimina las viñetas */
-    margin: 2%;
-    padding: 2%;
+    margin: 1%;
+    padding: 0.8%;
+    margin-left: 35%;
+    margin-right: 35%;
     background-color: rgba(0, 78, 222, 0.622);
     border-radius: 25px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-h1{
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    font-size: 3rem;
-    color: #161616;
-    text-align: center;
-    margin: 0;
+li a {
+    display: block; /* Convierte el enlace en un bloque para ocupar todo el espacio del <li> */
+    width: 100%; /* Asegura que el <a> tome el 100% del ancho del <li> */
+    text-align: center; /* Centra el contenido dentro del <a>, opcional */
 }
 
-img{
-    width: 12vw;
-    height: auto;
-}
 
-p{
-    font-family: "Bebas Neue", sans-serif;
-    text-align: end;
-    color: #ebebeb;
-    margin-right: 5%;
-}
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #161616;
-    text-align: center;
-    padding: 5px;
-    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
-  }
-  
+@media (max-width: 550px) {
+    nav ul li{
+        margin: 2%;
+        padding: 2%;
+    }
+}
 
 
