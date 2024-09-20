@@ -26,7 +26,8 @@ nav ul li {
     padding: 0.8%;
     margin-left: 35%;
     margin-right: 35%;
-    background-color: rgba(0, 78, 222, 0.7); /* Un color base semitransparente */
+    /*background-color: rgba(0, 78, 222, 0.7);*/
+    background-color: rgb(0 78 222 / 85%);
     border-radius: 30px; /* Bordes más redondeados */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más definida y suave */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -75,7 +76,7 @@ img{
     width: auto;
     height: 7vh;
     transition: 0.3s;
-    /*filter: brightness(0) saturate(100%) invert(1);*/
+    filter: brightness(0) saturate(100%) invert(90%);
 }
 
 @media (max-width: 550px) {
